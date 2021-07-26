@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:wght@700&display=swap');
+
+* {
+    color: #000;
+    font-family: helvetica;
+    box-sizing: border-box;
+    }
+
+body {
+    background: #814912;
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+    text-decoration: none;
+}
+
+h1 {
+    color: #D1B30A !important;
+    display: inline; 
+}
+
+h2 {
+    color: #8a0f2e;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+h4 {
+    font-size: x-small;
+}
+
+ul{
+    font-family: helvetica;
+}
+li {
+    list-style: circle;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.ulLink {
+  text-decoration: underline !important;
+}
+
+.h2Subtext {
+  color: #000;
+}
+
+.h2Title {
+  color: #8a0f2e !important;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.list {
+    list-style: square;
+}
+
+.a:hover {
+  color: #000;
+}
+
+.header {
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  .header img {
+    float: right;
+    margin: 0px 0px 0px 400px;
+    position: absolute;
+    max-width: 10%;
+    display: inline; 
+  }
+
+  .header h1 {
+    display: inline; 
+    position: relative;
+    top: 18px;
+    left: 10px;
+    font-size: 100px;
+    font-family: 'Zen Loop', cursive !important;
+    text-transform: uppercase;
+  }
+
+  .header a {
+    text-decoration: none;
+    font-family: inherit;
+    color: inherit;
+  }
+
+  .header h2 {
+    font-size: small;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    color: #000;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  
+  .topnav a {
+    float: center;
+    font-family: 'Andika New Basic', sans-serif;
+    color: #D1B30A;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    color: #FFF;
+  }
+  
+  .leftcolumn {   
+    float: left;
+    width: 73%;
+    margin: 20px 0px 0px 0px;
+    border-radius: 5px;
+    background: #FFF;
+    border:1px solid #FFF;
+}
+  
+  .rightcolumn {
+    float: right;
+    width: 23%;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    margin: 20px 0px 0px 20px;
+    background: #fff;
+    border:1px solid #FAF4EF;
+  }
+  
+  .fakeimg {
+    padding: 20px;
+    border-radius: 5px;
+    height: 200px;
+  }
+
+  .image img {
+    width: 55%;
+    border-radius: 5px;
+  }
+  
+  .card {
+    background-color: #FFF;
+    padding: 20px 20px 0px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border:1px solid #FFF;
+  }
+  
+  .cardLast {
+    background-color: #FFF;
+    padding: 20px 20px 100px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border:1px solid #FFF;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .footer {
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+/* Popular post slideshow */
+
+  .slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #dddddd;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.788);
+  font-size: 11px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: .3s;
+  animation-name: fade;
+  animation-duration: .3s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+  
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
