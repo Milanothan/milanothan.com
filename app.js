@@ -1,6 +1,6 @@
 'use strict'
 
-
+// Popular posts slideshow
 
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -14,6 +14,7 @@ function plusSlides(n) {
 // image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
+  
 }
 
 function showSlides(n) {
@@ -32,3 +33,18 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+
+// Newsletter form 
+
+function validateForm() {
+  if (isEmpty(document.getElementById('email').value.trim())) {
+  alert('Email address is required!');
+  return false;
+  }
+  return true;
+  }
+  function isEmpty(str) { return (str.length === 0 || !str.trim()); }
+  function validateEmail(email) {
+  var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,15}(?:\.[a-z]{2})?)$/i;
+  return isEmpty(email) || re.test(email);
+  }
