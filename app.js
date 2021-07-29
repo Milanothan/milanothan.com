@@ -1,7 +1,5 @@
 'use strict'
 
-// Popular posts slideshow
-
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -14,7 +12,6 @@ function plusSlides(n) {
 // image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
-  
 }
 
 function showSlides(n) {
