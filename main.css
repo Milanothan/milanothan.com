@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600&family=Hahmlet&display=swap');
 
 * {
     color: #000;
@@ -11,9 +12,13 @@
 
 body {
     background: #814912;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 15px;
     text-decoration: none;
+}
+
+a {
+  color:#333;
 }
 
 p {
@@ -22,27 +27,34 @@ p {
 }
 
 h1 {
-    color: #D1B30A !important;
+    color: #D1B30A;
     display: inline; 
 }
 
 h2 {
     color: #8a0f2e;
-    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
 }
 
 h3 {
   color: #8a0f2e;
-  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
 }
 
 
 h4 {
-    font-family: 'Montserrat', sans-serif;
     font-size: medium;
     text-align: center;
+}
+
+h5 {
+  margin: -20px 0px 20px 0px;
+}
+
+.blockqouteStyle {
+font-size: large;
+padding: 50px;
+font-family: Hahmlet;
 }
 
 ul{
@@ -54,17 +66,27 @@ li {
   font-family: 'Montserrat', sans-serif !important;
 }
 
+.square {
+
+}
+
+
+.square img {
+  float: left;
+  padding: 0px 20px 20px 0px;
+  width:50%;
+}
+
+
 .box {
   font-size: x-small;
-  vertical-align: top;
-  display: inline-block;
   width: 100%;
   }
 
 .caption {
   font-family: Arial, Helvetica, sans-serif;
-  display: block;
   font-size: x-small;
+  width:50%;
 }
 
 /* newsletter Form */
@@ -258,7 +280,7 @@ a:link {
 /* Popular post slideshow */
 
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 100%;
   position: relative;
   margin: auto;
   text-align: left;
@@ -333,18 +355,13 @@ a:link {
   font-size: x-small;
 }
 
-.allPosts {
-  text-align: center !important;
-  font-family: Andika New Basic;
-  text-decoration: underline !important;
-  font-size: small;
-}
+.
 
 .endDots {
   text-align: center !important;
   font-size: xx-large;
   font-family: Andika New Basic;
-  margin: -70px; 0px; 0px; 0px;
+  margin: -70px 0px 0px 0px;
 }
   
   @media screen and (max-width: 800px) {
