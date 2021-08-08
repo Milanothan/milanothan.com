@@ -4,6 +4,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600&family=Hahmlet&display=swap');
 
+/* Imported fonts used include the following:
+
+Lato
+Montserrat
+Zen Loop
+Andika New Basic
+EB Garamond
+
+*/
+
 * {
     color: #000;
     font-family: helvetica;
@@ -64,10 +74,6 @@ ul{
 li {
   font-size: small;
   font-family: 'Montserrat', sans-serif !important;
-}
-
-.square {
-
 }
 
 
@@ -134,6 +140,25 @@ a:link {
 .ulLink {
   text-decoration: underline !important;
 }
+
+.continueRead {
+  font-size: small;
+  font-family: helvetica;
+  color: #333;
+  text-decoration: underline;
+}
+
+.blogPosts {
+  text-align: center;
+  font-size: small;
+  font-family: 'Andika New Basic', sans-serif;
+  border-color: rgba(51, 51, 51, 0.432); 
+}
+
+.borderedDiv {
+  border-width: thick;
+}
+
 
 .h2Subtext {
   color: #000;
@@ -355,13 +380,35 @@ a:link {
   font-size: x-small;
 }
 
-.
-
 .endDots {
   text-align: center !important;
   font-size: xx-large;
   font-family: Andika New Basic;
-  margin: -70px 0px 0px 0px;
+}
+
+.blogLinks {
+  text-decoration: underline;
+  font-size: small;
+  text-align: left;
+  font-family: Lato;
+}
+
+.capLetter {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 75px;
+  line-height: 60px;
+  float: left;
+  padding-top: 3px;
+  padding-right: 8px;
+  padding-left: 3px;
+  color: #333;
+}
+
+
+hr.solid {
+  border-top: 3px solid #bbb;
+  margin: 150px;
+}
 }
   
   @media screen and (max-width: 800px) {
