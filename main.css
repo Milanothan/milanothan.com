@@ -305,7 +305,8 @@ a:link {
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: #dddddd;
+    color: rgba(255, 255, 255, 0.548);
+    background-color: rgba(0, 0, 0, 0.384);
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
