@@ -405,6 +405,55 @@ hr.solid {
 
 @media screen and (max-width: 800px) {
 
+    body {
+        text-align: center;
+    }
+
+    body img {
+        text-align: center;
+    }
+    
+    .header h1 {
+        display:inline-block;
+        vertical-align: middle;        
+        font-size: xxx-large;
+        font-family: 'Zen Loop', cursive;
+        text-transform: uppercase;
+        position: sticky;
+            }
+    h2 {
+        font-size: large;
+        text-align: center;
+        }
+
+    h5 {
+        margin: 10px 0px 20px 0px;
+        text-align: center;
+        font-size: small;
+
+    }
+
+    .header img {
+        display: none;
+        position: relative;
+    }
+
+    .square img {
+        width: 100%;
+    }
+    
+    .topnav {
+    overflow: hidden;
+    border-radius: 5px;
+    text-align: center;
+    font-size: small;
+}
+    .h2Subtext {
+        font-size: x-small;
+        display: inline-block;
+        line-height: 50px;
+    }
+
     .leftcolumn,
     .rightcolumn {
         width: 100%;
@@ -413,6 +462,7 @@ hr.solid {
 }
 
 @media screen and (max-width: 400px) {
+    .h1 {font-size: medium;}
     .topnav a {
         float: none;
         width: 100%;
