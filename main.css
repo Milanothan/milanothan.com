@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:wght@700&display=swap');
 
 /* Imported fonts used include the following: Lato/Montserrat/Zen Loop/Andika New Basic*/
+
 * {
     color: #000;
     font-family: helvetica;
@@ -335,6 +336,7 @@ a:link {
     text-align: center;
 }
 
+
 .numbertext {
     color: #f2f2f2;
     font-size: 12px;
@@ -405,14 +407,6 @@ hr.solid {
 }
 
 @media screen and (max-width: 800px) {
-
-    body {
-        text-align: center;
-    }
-
-    body img {
-        text-align: center;
-    }
     
     .header h1 {
         display:inline-block;
@@ -432,6 +426,10 @@ hr.solid {
         text-align: center;
         font-size: small;
 
+    }
+
+    .youtube {
+        width: 100%;
     }
 
     .header img {
@@ -468,4 +466,14 @@ hr.solid {
         float: none;
         width: 100%;
     }
+}
+
+@media screen and (min-width: 1800px) {
+    .divPad{
+        padding: 0px 0px 100px 0px;
+    }
+
+@media screen and (min-width: 2100px) {
+.divPad{
+    padding: 0px 0px 300px 0px;
 }
